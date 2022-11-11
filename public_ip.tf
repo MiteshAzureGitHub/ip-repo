@@ -41,5 +41,6 @@ locals {
   common_tags={
     team="Devops"
     operation="backend"
+    cost="0"
   }
 }
