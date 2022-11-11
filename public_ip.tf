@@ -29,3 +29,8 @@ resource "azurerm_public_ip" "public_ip" {
 
   
 }
+
+output "my_output" {
+  value = azurerm_public_ip.public_ip
+  
+}
